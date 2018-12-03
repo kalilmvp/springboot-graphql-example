@@ -20,8 +20,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/users")
-public class UserController {
+@RequestMapping("/cars")
+public class CarController {
 
     @Autowired
     private CarService service;
