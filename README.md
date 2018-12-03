@@ -25,6 +25,7 @@
       
      . **Query getting cool cars**. This showcase how easy is just to pass a variable that defines a business rule implemented on the backend
      
+     ```
      query {
         cars {
           id,
@@ -32,6 +33,7 @@
           isCool
         }
       }
+      ```
       
       . **Query getting gifs from the cars**. With this varible, on the backend you access the API from giphy and then it will return the url 
       regarding the specific car passed
