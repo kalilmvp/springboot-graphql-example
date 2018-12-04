@@ -2,7 +2,7 @@ import gql from 'graphql-tag';
 
 export const getCar = gql`
     query getCar($id: Long!){
-        car(id : $id){
+        car(arg0 : $id){
             id
             name
             giphyUrl
